@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="min-h-screen">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="nav-helper" content="Home">
+
+    <!--Page Meta Data-->
+    <title>Home | Taylor's DWDD 2620</title>
+    <meta name="description" content="A basic webpage to use as a template for other projects.">
+    <meta name="author" content="Taylor Scadden">
+
+    <link rel="stylesheet" href="src/css/index.css">
+    <script type="module" src="src/js/main.ts"></script>
+</head>
+
+<body class="grid place-items-center w-full min-h-screen">
+    <div class="grid place-items-center gap-2"> <!--Used just to center the button group on the page.-->
+        <button class="flex flex-row gap-2 border-none place-items-center justify-center w-80 h-11 font-['Inter'] border-none bg-[#6B4EFF] text-white rounded-[999999px] hover:bg-[#5538EE] disabled:bg-[#E3E5E5] disabled:text-[#979C9E] group">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg">
+                <circle class="group-disabled:stroke-[#979C9E] origin-center" cx="8" cy="8" r="7" fill="none" stroke="white" stroke-width="1"/>
+            </svg>
+
+            <span>Button</span>
+        </button>
+        <button class="flex flex-row gap-2 border-none place-items-center justify-center w-80 h-11 font-['Inter'] border-none bg-[#6B4EFF] text-white rounded-[999999px] hover:bg-[#5538EE] disabled:bg-[#E3E5E5] disabled:text-[#979C9E] group" disabled>
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg">
+                <circle class="group-disabled:stroke-[#979C9E] origin-center" cx="8" cy="8" r="7" fill="none" stroke="white" stroke-width="1"/>
+            </svg>
+
+            <span>Disabled Btn</span>
+        </button>
+    </div>
+</body>
+
+</html>
