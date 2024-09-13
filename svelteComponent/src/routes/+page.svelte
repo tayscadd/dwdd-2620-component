@@ -18,8 +18,6 @@
 
 <body>
     <div>
-        <BtnComponent size='lg' />
-        <BtnComponent size='md' />
-        <BtnComponent size='sm' disabled=true/>
+        <BtnComponent size='lg' disabled=true/>
     </div>
 </body>
